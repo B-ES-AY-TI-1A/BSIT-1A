@@ -10,7 +10,6 @@ int main () {
     printf("\n3)0\t\t4)11");
     printf("\nAnswer Selected: ");
     scanf("%d",&answer);
-
     if (answer == 1)
     {
         score+=5;
