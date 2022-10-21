@@ -31,7 +31,7 @@ int main()
     // gives a number that is unique
     do
     {
-      // we will use %59 + because it gives a random number between 1-59
+      // we will use %59 + 1 because it gives a random number between 1-59
       // because if we use %60 it will give numbers between 0-60.
       RandomNumber = (rand() % 59) + 1;
 
